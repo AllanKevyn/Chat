@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
     id("com.google.dagger.hilt.android")
+    kotlin("plugin.serialization") version "1.7.20"
 }
 
 android {
@@ -91,7 +92,7 @@ dependencies {
     implementation ("io.ktor:ktor-client-serialization:2.3.8")
     implementation ("io.ktor:ktor-client-websockets:2.3.8")
     implementation ("io.ktor:ktor-client-logging:2.3.8")
-    implementation ("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
+    implementation ("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
