@@ -16,7 +16,6 @@ import javax.inject.Singleton
 import io.ktor.client.plugins.contentnegotiation.*
 import io.ktor.serialization.kotlinx.json.json
 
-
 @Module
 @InstallIn(SingletonComponent::class)
 class AppModule {
