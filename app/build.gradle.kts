@@ -84,7 +84,7 @@ dependencies {
     // Dagger - Hilt
     implementation("com.google.dagger:hilt-android:2.49")
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
-    kapt("com.google.dagger:hilt-compiler:2.44")
+    kapt("com.google.dagger:hilt-compiler:2.49")
 
     // Ktor
     implementation("io.ktor:ktor-client-core:2.3.8")
